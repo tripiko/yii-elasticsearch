@@ -3,11 +3,12 @@
  * AElasticRecord is an ActiveRecord like interface to elastic search
  * It allows documents to be indexed, edited, searched and deleted.
  * @author Charles Pick
+ * @author Stratos Gerakakis
  * @package packages.elasticSearch
  */
 class AElasticRecord extends CActiveRecord {
 	/**
-	 * the default elastic search connection for all elastic record classes.
+	 * The default elastic search connection for all elastic record classes.
 	 * By default, this is the 'elasticSearch' application component.
 	 * @see getElasticSearchConnection()
 	 */
@@ -30,7 +31,7 @@ class AElasticRecord extends CActiveRecord {
 	 */
 	private $_c;
 	/**
-	 * Holds the attibutes for the model
+	 * Holds the attributes for the model
 	 * @var array
 	 */
 	private $_attributes=array();

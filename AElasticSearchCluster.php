@@ -2,6 +2,7 @@
 /**
  * Represents an Elastic Search cluster
  * @author Charles Pick
+ * @author Stratos Gerakakis
  * @package packages.elasticSearch
  */
 class AElasticSearchCluster extends CComponent {

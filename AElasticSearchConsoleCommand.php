@@ -2,8 +2,9 @@
 Yii::import("packages.elasticSearch.*");
 /**
  * Provides command line access to console commands
- * @package packages.elasticSearch
  * @author Charles Pick
+ * @author Stratos Gerakakis
+ * @package packages.elasticSearch
  */
 class AElasticSearchConsoleCommand extends CConsoleCommand {
 	public function actionReindex($modelClass) {
